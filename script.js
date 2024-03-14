@@ -39,7 +39,7 @@ function toggleText(moreTextId, btnId) {
         btnText.textContent = "Se mindre";
     } else {
         moreText.classList.add("hidden");
-        btnText.textContent = "Se mere...";
+        btnText.textContent = "See more...";
     }
 }
 
