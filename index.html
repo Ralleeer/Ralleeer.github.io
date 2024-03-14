@@ -9,6 +9,12 @@
 </head>
 <body class="bg-gray-100 text-gray-800">
 
+    <!-- Sprogvalg -->
+<div class="language-switcher">
+    <button onclick="switchLanguage('da')">Dansk</button>
+    <button onclick="switchLanguage('en')">English</button>
+</div>
+
     <!-- Header -->
     <header class="bg-white shadow fixed top-0 left-0 right-0 z-50">
         <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
@@ -33,7 +39,7 @@
             </div>
             <!-- Tekst -->
             <div>
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">Om Mig</h2>
+                <h2 data-translate="omMig" class="text-3xl font-bold text-gray-800 mb-4">Om Mig</h2>
                 <p class="text-gray-600">
                     Jeg er Rasmus Fjordbak Søndergaard, en passioneret softwareudvikler med en bachelor i Informationsteknologi
                     og kandidatstuderende i Interaktive Digitale Medier. Jeg har stærke færdigheder inden for UX-design,
