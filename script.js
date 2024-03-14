@@ -57,38 +57,4 @@ module.exports = {
       },
     },
   }
-
-  const translations = {
-    "omMig": {
-        "da": "Om Mig",
-        "en": "About Me"
-    },
-    "mineKompetencer": {
-        "da": "Mine Kompetencer",
-        "en": "My Skills"
-    },
-    "projekter": {
-        "da": "Projekter",
-        "en": "Projects"
-    },
-    "mitGalleri": {
-        "da": "Mit Galleri",
-        "en": "My Gallery"
-    },
-    "kontakt": {
-        "da": "Kontakt",
-        "en": "Contact"
-    },
-    "omMigTekst": {
-        "da": "Jeg er Rasmus Fjordbak Søndergaard, en passioneret softwareudvikler med en bachelor i Informationsteknologi og kandidatstuderende i Interaktive Digitale Medier...",
-        "en": "I am Rasmus Fjordbak Søndergaard, a passionate software developer with a Bachelor's degree in Information Technology and a Master's candidate in Interactive Digital Media..."
-    },
-    // Tilføj flere oversættelser her
-};
-
-function switchLanguage(lang) {
-    document.querySelectorAll("[data-translate]").forEach(el => {
-        const key = el.getAttribute("data-translate");
-        el.textContent = translations[key][lang];
-    });
-}
+  
